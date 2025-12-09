@@ -37,6 +37,6 @@ const giftSchema = new mongoose.Schema({
     }
 });
 
-const Gift = mongoose.model('Gift', giftSchema);
+const Gift = mongoose.model('card', giftSchema);
 
 module.exports = Gift;

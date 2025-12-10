@@ -63,20 +63,20 @@ exports.comprarCC = async (chatId, messageId) => {
         reply_markup: {
             inline_keyboard: [
                 [
-                    { text: "BLACK", callback_data: "nivel_BLACK" },
-                    { text: "BUSINESS", callback_data: "nivel_BUSINESS" },
+                    { text: "BLACK R$50", callback_data: "nivel_BLACK" },
+                    { text: "BUSINESS R$40", callback_data: "nivel_BUSINESS" },
                 ],
                 [
-                    { text: "CLASSIC", callback_data: "nivel_CLASSIC" },
-                    { text: "GOLD", callback_data: "nivel_GOLD" }
+                    { text: "CLASSIC R$35", callback_data: "nivel_CLASSIC" },
+                    { text: "GOLD R$50", callback_data: "nivel_GOLD" }
                 ],
                 [
-                    { text: "ELO", callback_data: "nivel_ELO" },
-                    { text: "NUBANK BLACK", callback_data: "nivel_NUBANKBLACK" }
+                    { text: "ELO R$35", callback_data: "nivel_ELO" },
+                    { text: "NUBANK BLACK R$50", callback_data: "nivel_NUBANKBLACK" }
                 ],
                 [
-                    { text: "PLATINUM", callback_data: "nivel_PLATINUM" },
-                    { text: "STANDARD", callback_data: "nivel_STANDARD" }
+                    { text: "PLATINUM R$35", callback_data: "nivel_PLATINUM" },
+                    { text: "STANDARD R$35", callback_data: "nivel_STANDARD" }
                 ],
                 [{ text: "⬅️ Voltar", callback_data: "menu" }]
             ]
